@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="视图动画，也叫 Tween （补间）动画可以在一个视图容器内执行一系列简单变换（位置、大小、旋转、透明度）。 譬如，如果你有一个 TextView 对象，您可以移动、旋转、缩放、透明度设置其文本，当然，如果它有一个背景图像，背景图像会随着文本变化。\n\n补间动画通过 XML 或 Android 代码定义，建议使用 XML 文件定义，因为它更具可读性、可重用性。" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="alpha"
+            android:text="AlphaAnimation"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rotate"
+            android:text="RotateAnimation"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="scale"
+            android:text="ScaleAnimation"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="translate"
+            android:text="TranslateAnimation"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="animationSet"
+            android:text="AnimationSet"/>
+
+    </LinearLayout>
+
+</ScrollView>
