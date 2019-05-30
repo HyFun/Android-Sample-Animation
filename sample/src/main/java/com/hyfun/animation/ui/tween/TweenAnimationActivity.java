@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.hyfun.animation.R;
-import com.hyfun.base.BaseActivity;
+import com.hyfun.animation.base.BaseActivity;
 
 public class TweenAnimationActivity extends BaseActivity {
 
@@ -34,5 +34,9 @@ public class TweenAnimationActivity extends BaseActivity {
 
     public void animationSet(View view) {
         startActivity(new Intent(this, AnimationSetActivity.class));
+    }
+
+    public void interpolator(View view) {
+        startActivity(new Intent(this, InterpolatorActivity.class));
     }
 }

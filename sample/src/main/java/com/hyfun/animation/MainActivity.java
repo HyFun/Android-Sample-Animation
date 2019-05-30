@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.hyfun.animation.ui.tween.TweenAnimationActivity;
-import com.hyfun.base.BaseActivity;
+import com.hyfun.animation.base.BaseActivity;
 
 public class MainActivity extends BaseActivity {
 

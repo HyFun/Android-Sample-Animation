@@ -44,6 +44,11 @@
             android:onClick="animationSet"
             android:text="AnimationSet"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="interpolator"
+            android:text="Interpolator 插值器"/>
     </LinearLayout>
 
 </ScrollView>

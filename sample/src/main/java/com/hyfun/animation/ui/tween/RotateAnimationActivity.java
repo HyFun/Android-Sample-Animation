@@ -8,7 +8,7 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.RotateAnimation;
 
 import com.hyfun.animation.R;
-import com.hyfun.base.BaseActivity;
+import com.hyfun.animation.base.BaseActivity;
 
 public class RotateAnimationActivity extends BaseActivity {
 
