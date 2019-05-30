@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.hyfun.animation.base.BaseActivity;
 import com.hyfun.animation.ui.drawable.DrawableAnimationActivity;
+import com.hyfun.animation.ui.property.PropertyAnimationActivity;
 import com.hyfun.animation.ui.tween.TweenAnimationActivity;
 
 public class MainActivity extends BaseActivity {
@@ -37,5 +38,9 @@ public class MainActivity extends BaseActivity {
      */
     public void viewDrawable(View view) {
         startActivity(new Intent(this, DrawableAnimationActivity.class));
+    }
+
+    public void viewProperty(View view) {
+        startActivity(new Intent(this, PropertyAnimationActivity.class));
     }
 }

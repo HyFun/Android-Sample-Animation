@@ -32,6 +32,12 @@
                 android:onClick="viewDrawable"
                 android:text="Drawable Animation / 帧动画 / Frame 动画" />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="viewProperty"
+                android:text="Property Animation / 属性动画" />
+
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

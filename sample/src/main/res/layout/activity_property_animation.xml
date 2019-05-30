@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="属性动画（Property Animation）是在 Android 3.0（API 11）后才提供的一种全新动画模式\n\n
+属性动画有两个非常重要的类：ValueAnimator 类 、ObjectAnimator 类"
+            android:textColor="#333"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="valueAnimation"
+            android:text="ValueAnimator" />
+
+
+    </LinearLayout>
+</ScrollView>
