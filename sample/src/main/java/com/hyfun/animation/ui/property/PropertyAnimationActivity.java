@@ -17,7 +17,11 @@ public class PropertyAnimationActivity extends BaseActivity {
         setDisplayHomeAsUpEnabled();
     }
 
-    public void valueAnimation(View view) {
+    public void valueAnimator(View view) {
         startActivity(new Intent(this, ValueAnimationActivity.class));
+    }
+
+    public void objectAnimator(View view) {
+        startActivity(new Intent(this, ObjectAnimationActivity.class));
     }
 }

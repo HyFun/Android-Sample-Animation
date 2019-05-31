@@ -20,9 +20,14 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="valueAnimation"
+            android:onClick="valueAnimator"
             android:text="ValueAnimator" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="objectAnimator"
+            android:text="ValueAnimator" />
 
     </LinearLayout>
 </ScrollView>
