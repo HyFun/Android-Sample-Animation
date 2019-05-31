@@ -9,7 +9,7 @@
     </style>
 
 
-    <style name="AppTheme.RippleDefaultColor">
-        <item name="colorControlHighlight">#09bb07</item>
-    </style>
+    <!--<style name="RippleDefaultColor">-->
+        <!--<item name="android:colorControlHighlight">#09bb07</item>-->
+    <!--</style>-->
 </resources>

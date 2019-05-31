@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.property.ObjectAnimationActivity"></activity>
+        <activity android:name=".ui.ripple.RippleDefaultColorActivity"
+            android:theme="@style/AppTheme.RippleDefaultColor"></activity>
+        <activity android:name=".ui.ripple.RippleEffectActivity" />
+        <activity android:name=".ui.property.ObjectAnimationActivity" />
         <activity android:name=".ui.property.ValueAnimationActivity" />
         <activity android:name=".ui.property.PropertyAnimationActivity" />
         <activity android:name=".ui.drawable.DrawableAnimationActivity" />
