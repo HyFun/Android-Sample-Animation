@@ -15,39 +15,111 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ValueAnimator.ofInt(int values)"
                 android:padding="5dp"
+                android:text="ValueAnimator.ofInt(int values)"
                 android:textColor="#333"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="XML演示"/>
+                android:text="XML演示(没有效果 不知道为什么)" />
 
             <View
                 android:id="@+id/property_value_animation_ofint_xml"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/shape_square_solid"/>
+                android:background="@drawable/shape_square_solid" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Java代码演示"/>
+                android:text="Java代码演示" />
 
             <View
                 android:id="@+id/property_value_animation_ofint_code"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/shape_square_solid"/>
+                android:background="@drawable/shape_square_solid" />
 
         </LinearLayout>
+
+
+        <!--ValueAnimator.oFloat（float values）-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="ValueAnimator.oFloat(float values)"
+                android:textColor="#333"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XML演示(没有效果 不知道为什么)" />
+
+            <View
+                android:id="@+id/property_value_animation_offloat_xml"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_square_solid" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Java代码演示" />
+
+            <View
+                android:id="@+id/property_value_animation_offloat_code"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_square_solid" />
+
+        </LinearLayout>
+
+
+        <!--ValueAnimator.ofObject()-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="ValueAnimator.ofObject()"
+                android:textColor="#333"
+                android:textSize="20sp" />
+
+
+            <com.hyfun.animation.ui.property.w.PropertyValueOfObjView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+
     </LinearLayout>
 </ScrollView>
