@@ -45,6 +45,18 @@
                 android:onClick="viewRipple"
                 android:text="Ripple Effect / Touch Feedback / 触摸反馈动画(Android 5.0+)" />
 
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="viewReveal"
+                android:text="Reveal Effect / 揭露动画(Android 5.0+)" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="viewTransition"
+                android:text="Transition Animation / 转场动画、共享元素" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

@@ -9,7 +9,9 @@ import com.bumptech.glide.Glide;
 import com.hyfun.animation.base.BaseActivity;
 import com.hyfun.animation.ui.drawable.DrawableAnimationActivity;
 import com.hyfun.animation.ui.property.PropertyAnimationActivity;
+import com.hyfun.animation.ui.reveal.RevealEffectActivity;
 import com.hyfun.animation.ui.ripple.RippleEffectActivity;
+import com.hyfun.animation.ui.transition.TransitionAnimationActivity;
 import com.hyfun.animation.ui.tween.TweenAnimationActivity;
 
 public class MainActivity extends BaseActivity {
@@ -47,5 +49,13 @@ public class MainActivity extends BaseActivity {
 
     public void viewRipple(View view) {
         startActivity(new Intent(this, RippleEffectActivity.class));
+    }
+
+    public void viewReveal(View view) {
+        startActivity(new Intent(this, RevealEffectActivity.class));
+    }
+
+    public void viewTransition(View view) {
+        startActivity(new Intent(this, TransitionAnimationActivity.class));
     }
 }
