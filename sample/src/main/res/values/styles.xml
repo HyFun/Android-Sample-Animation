@@ -6,6 +6,34 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+<!--        <item name="android:windowAnimationStyle">@style/default_animation_down</item>-->
+
+
+        <item name="android:windowAnimationStyle">@style/default_animation</item>
+    </style>
+
+    <!-- 默认Activity跳转动画 -->
+    <style name="default_animation" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_up_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_up_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_down_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_down_out</item>
+    </style>
+
+
+    <!--只有上一页面退出时有动画-->
+    <style name="default_animation_down" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityCloseEnterAnimation">@anim/activity_down_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_down_out</item>
+    </style>
+
+
+<!--    Splash界面主题-->
+    <style name="AppTheme.SplashTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
 
@@ -14,28 +42,4 @@
     </style>
 
 
-    <!--仿网易云音乐 缩放-->
-    <style name="AppTheme.ScaleTheme">
-        <item name="android:windowAnimationStyle">@style/ScanAnimation</item>
-    </style>
-
-    <style name="ScanAnimation" parent="@android:style/Animation.Activity">
-        <item name="android:activityOpenEnterAnimation">@anim/anim_scale_open_enter</item>
-        <item name="android:activityOpenExitAnimation">@anim/anim_scale_open_exit</item>
-        <item name="android:activityCloseEnterAnimation">@null</item>
-        <item name="android:activityCloseExitAnimation">@anim/anim_scale_close_exit</item>
-    </style>
-
-
-    <!--仿网易云 打开界面-->
-    <style name="AppTheme.SlideTheme">
-        <item name="android:windowAnimationStyle">@style/SlideAnimation</item>
-    </style>
-
-    <style name="SlideAnimation" parent="@android:style/Animation.Activity">
-        <item name="android:activityOpenEnterAnimation">@anim/anim_slide_open_enter</item>
-        <item name="android:activityOpenExitAnimation">@anim/anim_slide_open_exit</item>
-        <item name="android:activityCloseEnterAnimation">@null</item>
-        <item name="android:activityCloseExitAnimation">@anim/anim_slide_close_exit</item>
-    </style>
 </resources>

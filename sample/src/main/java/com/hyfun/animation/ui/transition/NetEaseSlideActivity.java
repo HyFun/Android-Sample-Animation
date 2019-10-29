@@ -15,9 +15,9 @@ public class NetEaseSlideActivity extends BaseActivity {
         setDisplayHomeAsUpEnabled();
     }
 
-    @Override
-    public void finish() {
-        super.finish();
-        overridePendingTransition(0, R.anim.anim_slide_close_exit);
-    }
+//    @Override
+//    public void finish() {
+//        super.finish();
+//        overridePendingTransition(0, R.anim.anim_slide_close_exit);
+//    }
 }

@@ -10,11 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.transition.NetEaseSlideActivity"
-            android:theme="@style/AppTheme.SlideTheme" />
+            android:name=".ui.SplashActivity"
+            android:theme="@style/AppTheme.SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
-            android:name=".ui.transition.NetEaseScaleActivity"
-            android:theme="@style/AppTheme.ScaleTheme" />
+            android:name=".ui.transition.NetEaseSlideActivity"/>
+        <activity
+            android:name=".ui.transition.NetEaseScaleActivity" />
         <activity android:name=".ui.transition.TransitionAnimationActivity" />
         <activity android:name=".ui.reveal.RevealEffectActivity" />
         <activity
@@ -32,13 +39,7 @@
         <activity android:name=".ui.tween.RotateAnimationActivity" />
         <activity android:name=".ui.tween.AlphaAnimationActivity" />
         <activity android:name=".ui.tween.TweenAnimationActivity" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

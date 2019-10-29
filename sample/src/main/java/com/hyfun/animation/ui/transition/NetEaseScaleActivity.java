@@ -17,9 +17,9 @@ public class NetEaseScaleActivity extends BaseActivity {
     }
 
 
-    @Override
-    public void finish() {
-        super.finish();
-        overridePendingTransition(0, R.anim.anim_scale_close_exit);
-    }
+//    @Override
+//    public void finish() {
+//        super.finish();
+//        overridePendingTransition(0, R.anim.anim_scale_close_exit);
+//    }
 }
